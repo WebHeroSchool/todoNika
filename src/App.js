@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {count, length} from './number';
 
 const salmon = '#fa8072';
 
@@ -36,6 +37,9 @@ function App() {
           {false}
           {true}
         </div>
+        <p>
+          length * count = {length * count}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
