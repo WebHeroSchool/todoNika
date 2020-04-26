@@ -16,7 +16,7 @@ function App() {
           Hey you!
         </h1>
         <div>
-          I used for background color {salmon}
+          Im used for background color {salmon}
         </div>
         <div>
           {42}
