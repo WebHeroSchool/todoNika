@@ -1,56 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {count, length} from './number';
 
-const salmon = '#fa8072';
+const element = (
+	<div>
+		Поищи что-нибудь в&nbsp;
+		<a href="https://ya.ru" target="_blank">яндексе</a>
+	</div>
+);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header" style={{backgroundColor: 'salmon'}}>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>
-          Hey you!
-        </h1>
-        <div>
-          Im used for background color {salmon}
-        </div>
-        <div>
-          {42}
-        </div>
-        <div>
-          {41 + 1}
-        </div>
-        <div>
-          {42 && '42'}
-        </div>
-        <div>
-          {42 ? 42 : '42'}
-        </div>
-        <div>
-          {undefined}
-          {null}
-          {false}
-          {true}
-        </div>
-        <p>
-          length * count = {length * count}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export { element };
