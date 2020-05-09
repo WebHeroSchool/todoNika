@@ -3,13 +3,13 @@ import ItemList from '../ItemList/ItemList';
 import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
 
-
+const todoItem = 'Написать новое приложение';
 const App = () => (
 	<div>
 		<h1>Hey</h1>
 		<InputItem/>
-		<ItemList/>
-		<Footer/>
+		<ItemList todoItem={todoItem}/>
+		<Footer count={666} />
 	</div>
 );
 
