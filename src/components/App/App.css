@@ -1,0 +1,13 @@
+.wrap {
+	background-color: #ffcce1;
+	padding: 50px;
+	width: 500px;
+	margin: auto;
+}
+
+.title {
+	font-family: Helvetica;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
