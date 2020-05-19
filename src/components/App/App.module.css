@@ -1,6 +1,5 @@
 .wrap {
-	background-color: #ffcce1;
-	padding: 50px;
+	padding-top: 150px;
 	width: 500px;
 	margin: auto;
 }
@@ -10,4 +9,6 @@
 	font-size: 30px;
 	margin-bottom: 20px;
 	font-weight: bold;
+	border-bottom: 3px solid #ff9691;
+	display: inline-block;
 }

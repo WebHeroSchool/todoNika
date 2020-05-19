@@ -24,10 +24,10 @@ const App = () => {
 
 	return (
 		<div className={styles.wrap}>
-			<div className={styles.title}>Дневник эффективности</div>
+			<div className={styles.title}>Ты можешь все!</div>
 			<InputItem/>
 			<ItemList items={items}/>
-			<Footer count={666} />
+			<Footer count={1}/>
 		</div>
 	);
 }
