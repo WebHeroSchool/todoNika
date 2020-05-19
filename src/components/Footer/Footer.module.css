@@ -1,0 +1,55 @@
+.count {
+	background-color: #ff9691;
+	padding: 10px;
+}
+
+.footer {
+	font-family: helvetica;
+}
+
+.filters {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.filter_active,
+.filter {
+	padding: 10px;
+	border: 1px solid salmon;
+	border-radius: 5px;
+	margin-right: 20px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.filter:last-child {
+	margin-right: 0;
+}
+
+.filter:hover {
+	background-color: #fd8678b8;
+}
+
+.counter {
+	margin-bottom: 50px;
+}
+
+.filter_active {
+	background-color: salmon;
+}
+
+.delete {
+	width: 220px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid salmon;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.delete:hover {
+	background-color: salmon;
+}

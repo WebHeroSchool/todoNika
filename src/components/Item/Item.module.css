@@ -1,3 +1,34 @@
+.item {
+	color: #505050;
+	background-color: #ff9691;
+	padding: 15px;
+	margin-bottom: 10px;
+	font-family: Helvetica;
+	position: relative;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+
+.item:hover {
+	background-color: #fd756e;
+}
+
+.item:hover .icon {
+	opacity: 1;
+}
+
+.icon {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	opacity: 0;
+	transition: .3s ease;
+}
+
 .done {
-	color: #1000ff;
+	background-color: #bfffbe;
+}
+
+.done:hover {
+	background-color: #7bff79;
 }
