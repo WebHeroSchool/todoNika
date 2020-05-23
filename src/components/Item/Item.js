@@ -4,7 +4,7 @@ import styles from './Item.module.css';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Checkbox from '@material-ui/core/Checkbox';
 
-const Item = ({ value, isDone, onClickDone }) => (
+const Item = ({ value, isDone, onClickDone, id, onClickDelete }) => (
 	<div className={
 		classnames({
 			[styles.item]: true,
@@ -15,12 +15,12 @@ const Item = ({ value, isDone, onClickDone }) => (
 	<Checkbox
 		checked={isDone}
 		tabIndex={-1}
-		onClick={() => onClickDone(isDone)}
+		onClick={() => onClickDone(id)}
 	/>
 
 	{value}
 	<span className={styles.icon}>
-		<DeleteIcon/>
+		<DeleteIcon onClick={() => onClickDelete(id)}/>
 	</span>
 </div>);
 
