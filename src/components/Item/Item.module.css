@@ -20,7 +20,7 @@
 .icon {
 	position: absolute;
 	right: 10px;
-	top: 12px;
+	top: 23px;
 	opacity: 0;
 	transition: .3s ease;
 }
