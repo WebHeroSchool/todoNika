@@ -5,8 +5,8 @@ import Footer from '../Footer/Footer';
 import styles from './App.module.css';
 
 class App extends React.Component {
-	render() {
-		const items = [
+	state = {
+		items: [
 			{
 				value: 'Написать новое приложение',
 				isDone: true
@@ -19,13 +19,15 @@ class App extends React.Component {
 				value:'третье важное дело',
 				isDone: true
 			}
-		];
+		]
+	};
 
+	render() {
 		return (
 			<div className={styles.wrap}>
 				<div className={styles.title}>Ты можешь все!</div>
 				<InputItem/>
-				<ItemList items={items}/>
+				<ItemList items={this.state.items}/>
 				<Footer count={1}/>
 			</div>
 		);
