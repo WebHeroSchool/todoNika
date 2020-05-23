@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import Typography from '@material-ui/core/Typography';
 
 const Footer = ({ count }) => (
 	<footer className={styles.footer}>
