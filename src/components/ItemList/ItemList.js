@@ -5,7 +5,7 @@ import styles from './ItemList.module.css';
 const ItemList = ({ items, onClickDone, onClickDelete }) => (
 	<div className={styles.list}>
 		{items.map(item => 
-			<div key={item.value}>
+			<div key={item.id}>
 				<Item 
 					value = {item.value} 
 					isDone={item.isDone} 
