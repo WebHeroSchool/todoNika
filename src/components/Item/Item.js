@@ -3,6 +3,7 @@ import classnames from 'classnames';
 import styles from './Item.module.css';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Checkbox from '@material-ui/core/Checkbox';
+import PropTypes from 'prop-types';
 
 const Item = ({ value, isDone, onClickDone, id, onClickDelete }) => (
 	<div className={
@@ -26,6 +27,10 @@ const Item = ({ value, isDone, onClickDone, id, onClickDelete }) => (
 
 Item.defaultProps = {
 	isDone: false
+};
+
+Item.propTypes = {
+	count: PropTypes.bool
 };
 
 export default Item;
