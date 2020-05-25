@@ -17,11 +17,11 @@ class App extends React.Component {
 				isDone: false,
 				id: 2
 			},
-			{
-				value:'третье важное дело',
-				isDone: true,
-				id: 3
-			}
+			// {
+			// 	value:'третье важное дело',
+			// 	isDone: true,
+			// 	id: 3
+			// }
 		],
 		count: 3
 	};

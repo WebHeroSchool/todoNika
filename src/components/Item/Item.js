@@ -7,15 +7,12 @@ import PropTypes from 'prop-types';
 
 class Item extends React.Component {
 	componentDidMount() {
-		console.log('componentDidMount');
-	}
-
-	componentDidUpdate() {
-		console.log('componentDidUpdate');
+		const { id } = this.props;
+		this.timerID = setInterval(() => console.log('память утекает, задействован элемент ' + id), 1000);
 	}
 
 	componentWillUnmount() {
-		console.log('componentWillUnmount');
+		clearInterval(this.timerID);
 	}
 
 	render() {
