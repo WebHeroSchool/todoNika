@@ -4,7 +4,7 @@ import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
 import styles from './Todo.module.css';
 
-const App=() => {
+const Todo=() => {
 	const initialState = {
 		items: [
 			{
@@ -84,4 +84,4 @@ const App=() => {
 	);
 };
 
-export default App;
+export default Todo;
