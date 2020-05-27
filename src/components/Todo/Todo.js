@@ -67,7 +67,7 @@ const App=() => {
 			}
 		];
 		setTodoItem(newTodoItem);
-	    setCount((count) => count - 1);
+	    setCount((count) => count + 1);
 	};
 
 	return (
