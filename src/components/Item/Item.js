@@ -6,14 +6,14 @@ import Checkbox from '@material-ui/core/Checkbox';
 import PropTypes from 'prop-types';
 
 class Item extends React.Component {
-	componentDidMount() {
-		const { id } = this.props;
-		this.timerID = setInterval(() => console.log('память утекает, задействован элемент ' + id), 1000);
-	}
+	// componentDidMount() {
+	// 	const { id } = this.props;
+	// 	this.timerID = setInterval(() => console.log('память утекает, задействован элемент ' + id), 1000);
+	// }
 
-	componentWillUnmount() {
-		clearInterval(this.timerID);
-	}
+	// componentWillUnmount() {
+	// 	clearInterval(this.timerID);
+	// }
 
 	render() {
 		const { value, isDone, onClickDone, id, onClickDelete } = this.props;
