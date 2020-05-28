@@ -1,8 +1,6 @@
 .wrap {
-	background-color: #ffcce1;
-	padding: 50px;
 	width: 500px;
-	margin: auto;
+	margin: 50px auto;
 }
 
 .title {
@@ -10,4 +8,6 @@
 	font-size: 30px;
 	margin-bottom: 20px;
 	font-weight: bold;
+	border-bottom: 3px solid #ff9691;
+	display: inline-block;
 }
