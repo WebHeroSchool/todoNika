@@ -1,3 +1,21 @@
 .wrap {
 	margin: 20px;
 }
+
+.error {
+	color: red;
+	margin-top: 20px;
+}
+
+.link {
+	color: salmon;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.info {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
